@@ -1,0 +1,43 @@
+.card {
+	position: relative;
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.card--image {
+	width: 176px;
+	height: 235px;
+	border-radius: 10px;
+}
+
+.card--availability {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	background-color: white;
+	padding: 5px;
+	font-size: 10px;
+	border-radius: 2px;
+}
+
+
+.card--star {
+	height: 12px;
+}
+
+.card>:nth-child(n+3) {
+	padding: 4px 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.gray {
+	color: #918E9B;
+}
